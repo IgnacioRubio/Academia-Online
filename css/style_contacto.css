@@ -1,0 +1,107 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body{
+	background-color: #f2f2f2;
+}
+
+section{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	
+}
+/*Cabecera y menu de la pagina*/
+.cabecera{
+	background-color:#1E6191;
+	margin-left: 150px;
+	margin-right: 150px;
+	
+}
+.cabecera h1{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: white;
+	margin: 20px;
+	padding: 10px;
+	display: inline;
+	float: right;
+}
+
+#nave{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+#nave li{
+	float: right;
+}
+#nave li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#nave li a:hover{
+	background-color: #111;
+}
+
+
+/**********************************/
+/*texto de presentacion*/
+
+
+#present{
+	font-size: 40px;
+	margin-bottom: 60px;
+}
+
+	
+/**************************************/
+/*cuerpo*/
+
+
+section p{
+	font-size: 18px;
+	font-family: Calibri;
+	margin-bottom: 40px;
+}
+
+fieldset{
+	border-style: dashed;
+	padding: 30px;
+	width: 400px;
+}
+input, textarea{
+	padding: 10px;
+	margin: 10px;
+}
+/**************************************/
+/*Pie de pagina*/
+footer{
+	background-color: #262626;
+	padding: 10px;
+
+}
+footer h3{
+	display: inline;
+}
+
+footer h3, footer p, footer a{
+	color: white;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 50px;
+}
+
+footer h3{
+	font-size: 30px;
+}
+
+

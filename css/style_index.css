@@ -1,0 +1,190 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body{
+	background-color: #f2f2f2;
+}
+
+section{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	
+}
+
+/*Cabecera y menu de la pagina*/
+.cabecera{
+	background-color:#1E6191;
+	margin-left: 150px;
+	margin-right: 150px;
+	
+}
+.cabecera h1{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: white;
+	margin: 20px;
+	padding: 10px;
+	display: inline;
+	float: right;
+}
+
+#nave{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+#nave li{
+	float: right;
+}
+#nave li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#nave li a:hover{
+	background-color: #111;
+}
+
+
+/**********************************/
+/*texto de presentacion*/
+
+
+#present h1, #present h3{
+	text-align: center;
+	margin: 20px;
+}
+
+#present h1{
+	font-size: 50px;
+	font-family: Impact;
+}
+
+#present h3{
+	font-size: 20px;
+	font-style: oblique;
+	
+}
+
+/**************************************/
+/*cuerpo*/
+#cuerpo{
+	padding: 30px;
+	border-style: solid;
+	background-color: white;
+}
+
+#cuerpo h2{
+	font-size: 30px;
+	font-family: Arial Black;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+#cuerpo h3{
+	font-size: 20px;
+	color: grey;
+	font-family: Arial Black;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#cuerpo ul{
+	margin: 10px;
+	margin-left: 80px;
+}
+
+#cuerpo li{
+	margin-left: 60px;
+	font-size: 20px;
+}
+
+#cuerpo a{
+	margin-left: -30px;
+	margin-bottom: 20px;
+}
+
+/**************************************/
+/*que es*/
+#que{
+	background-color:#1E6191;
+	margin: 0px;
+	padding: 40px;
+}
+
+#que header{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 20px;
+}
+#que h2{
+	font-size: 30px;
+	color: white;
+	font-family: Arial Black;
+}
+#que article{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+#que blockquote{
+	color: white;
+	font-size: 20px;
+	font-family: 'Bitstream Vera Sans Bold';
+}
+/****************************************/
+/*siempre acompa*/
+#acomp h2{
+	font-size: 30px;
+	font-family: Arial Black;
+}
+#acomp h3{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: grey;
+	font-size: 20px;
+}
+#acomp p{
+	font-family: Arial Black;
+	font-size:15px;
+}
+#acomp ul{
+	margin: 30px;
+	margin-left: 60px;
+}
+#acomp li{
+	list-style-type: square;
+	font-size: 20px;
+
+}
+
+/**************************************/
+/*Pie de pagina*/
+footer{
+	background-color: #262626;
+	padding: 10px;
+
+}
+footer h3{
+	display: inline;
+}
+
+footer h3, footer p, footer a{
+	color: white;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 50px;
+}
+
+footer h3{
+	font-size: 30px;
+}
+
+
